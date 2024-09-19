@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90BEDC112C9C011C003D7F0C /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEDC102C9C011C003D7F0C /* MyAppApp.swift */; };
+		90BEDC132C9C011C003D7F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEDC122C9C011C003D7F0C /* ContentView.swift */; };
+		90BEDC152C9C011D003D7F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BEDC142C9C011D003D7F0C /* Assets.xcassets */; };
+		90BEDC182C9C011D003D7F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BEDC172C9C011D003D7F0C /* Preview Assets.xcassets */; };
 		90BEDC2B2C9C0264003D7F0C /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC2A2C9C0264003D7F0C /* PostHog */; };
 		90BEDC2F2C9C02C5003D7F0C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC2E2C9C02C5003D7F0C /* FirebaseCrashlytics */; };
 		90BEDC312C9C02E9003D7F0C /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC302C9C02E9003D7F0C /* ReceiptParser */; };
@@ -14,19 +18,27 @@
 		90BEDC352C9C02E9003D7F0C /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC342C9C02E9003D7F0C /* RevenueCatUI */; };
 		90BEDC372C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC362C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation */; };
 		90BEDC3A2C9C030F003D7F0C /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC392C9C030F003D7F0C /* DeviceKit */; };
+		90BEDC3F2C9C0488003D7F0C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 90BEDC3D2C9C0483003D7F0C /* .gitkeep */; };
+		90BEDC4F2C9C04B9003D7F0C /* DeviceKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEDC4D2C9C04B9003D7F0C /* DeviceKitService.swift */; };
+		90BEDC612C9C05D3003D7F0C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 90BEDC602C9C05D3003D7F0C /* .gitkeep */; };
+		90BEDC632C9C05D5003D7F0C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 90BEDC622C9C05D5003D7F0C /* .gitkeep */; };
+		90BEDC652C9C05E2003D7F0C /* RevenueCat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEDC642C9C05E2003D7F0C /* RevenueCat+Extension.swift */; };
+		90BEDC672C9C063A003D7F0C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEDC662C9C063A003D7F0C /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90BEDC0D2C9C011C003D7F0C /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BEDC102C9C011C003D7F0C /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
+		90BEDC122C9C011C003D7F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90BEDC142C9C011D003D7F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BEDC172C9C011D003D7F0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90BEDC3D2C9C0483003D7F0C /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		90BEDC4D2C9C04B9003D7F0C /* DeviceKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceKitService.swift; sourceTree = "<group>"; };
+		90BEDC602C9C05D3003D7F0C /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		90BEDC622C9C05D5003D7F0C /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		90BEDC642C9C05E2003D7F0C /* RevenueCat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RevenueCat+Extension.swift"; sourceTree = "<group>"; };
+		90BEDC662C9C063A003D7F0C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		90BEDC0F2C9C011C003D7F0C /* MyApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90BEDC0A2C9C011C003D7F0C /* Frameworks */ = {
@@ -49,7 +61,7 @@
 		90BEDC042C9C011B003D7F0C = {
 			isa = PBXGroup;
 			children = (
-				90BEDC0F2C9C011C003D7F0C /* MyApp */,
+				90BEDC552C9C0553003D7F0C /* MyApp */,
 				90BEDC0E2C9C011C003D7F0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +72,71 @@
 				90BEDC0D2C9C011C003D7F0C /* MyApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		90BEDC552C9C0553003D7F0C /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC5C2C9C05AE003D7F0C /* Model */,
+				90BEDC5B2C9C05A7003D7F0C /* View */,
+				90BEDC5A2C9C0594003D7F0C /* ViewModel */,
+				90BEDC592C9C0591003D7F0C /* Services */,
+				90BEDC5D2C9C05B4003D7F0C /* Extensions */,
+				90BEDC142C9C011D003D7F0C /* Assets.xcassets */,
+				90BEDC122C9C011C003D7F0C /* ContentView.swift */,
+				90BEDC102C9C011C003D7F0C /* MyAppApp.swift */,
+				90BEDC562C9C0561003D7F0C /* Preview Content */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
+		90BEDC562C9C0561003D7F0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC172C9C011D003D7F0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90BEDC592C9C0591003D7F0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC4D2C9C04B9003D7F0C /* DeviceKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90BEDC5A2C9C0594003D7F0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC622C9C05D5003D7F0C /* .gitkeep */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		90BEDC5B2C9C05A7003D7F0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC602C9C05D3003D7F0C /* .gitkeep */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90BEDC5C2C9C05AE003D7F0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC3D2C9C0483003D7F0C /* .gitkeep */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90BEDC5D2C9C05B4003D7F0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90BEDC662C9C063A003D7F0C /* Color+Extension.swift */,
+				90BEDC642C9C05E2003D7F0C /* RevenueCat+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,9 +153,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				90BEDC0F2C9C011C003D7F0C /* MyApp */,
 			);
 			name = MyApp;
 			packageProductDependencies = (
@@ -139,6 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BEDC3F2C9C0488003D7F0C /* .gitkeep in Resources */,
+				90BEDC182C9C011D003D7F0C /* Preview Assets.xcassets in Resources */,
+				90BEDC632C9C05D5003D7F0C /* .gitkeep in Resources */,
+				90BEDC152C9C011D003D7F0C /* Assets.xcassets in Resources */,
+				90BEDC612C9C05D3003D7F0C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BEDC132C9C011C003D7F0C /* ContentView.swift in Sources */,
+				90BEDC672C9C063A003D7F0C /* Color+Extension.swift in Sources */,
+				90BEDC4F2C9C04B9003D7F0C /* DeviceKitService.swift in Sources */,
+				90BEDC112C9C011C003D7F0C /* MyAppApp.swift in Sources */,
+				90BEDC652C9C05E2003D7F0C /* RevenueCat+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
