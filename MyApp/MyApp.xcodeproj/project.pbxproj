@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		90BEDC2B2C9C0264003D7F0C /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC2A2C9C0264003D7F0C /* PostHog */; };
+		90BEDC2F2C9C02C5003D7F0C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC2E2C9C02C5003D7F0C /* FirebaseCrashlytics */; };
+		90BEDC312C9C02E9003D7F0C /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC302C9C02E9003D7F0C /* ReceiptParser */; };
+		90BEDC332C9C02E9003D7F0C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC322C9C02E9003D7F0C /* RevenueCat */; };
+		90BEDC352C9C02E9003D7F0C /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC342C9C02E9003D7F0C /* RevenueCatUI */; };
+		90BEDC372C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC362C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation */; };
+		90BEDC3A2C9C030F003D7F0C /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 90BEDC392C9C030F003D7F0C /* DeviceKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		90BEDC0D2C9C011C003D7F0C /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +33,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BEDC332C9C02E9003D7F0C /* RevenueCat in Frameworks */,
+				90BEDC372C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation in Frameworks */,
+				90BEDC312C9C02E9003D7F0C /* ReceiptParser in Frameworks */,
+				90BEDC2B2C9C0264003D7F0C /* PostHog in Frameworks */,
+				90BEDC3A2C9C030F003D7F0C /* DeviceKit in Frameworks */,
+				90BEDC352C9C02E9003D7F0C /* RevenueCatUI in Frameworks */,
+				90BEDC2F2C9C02C5003D7F0C /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,13 @@
 			);
 			name = MyApp;
 			packageProductDependencies = (
+				90BEDC2A2C9C0264003D7F0C /* PostHog */,
+				90BEDC2E2C9C02C5003D7F0C /* FirebaseCrashlytics */,
+				90BEDC302C9C02E9003D7F0C /* ReceiptParser */,
+				90BEDC322C9C02E9003D7F0C /* RevenueCat */,
+				90BEDC342C9C02E9003D7F0C /* RevenueCatUI */,
+				90BEDC362C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation */,
+				90BEDC392C9C030F003D7F0C /* DeviceKit */,
 			);
 			productName = MyApp;
 			productReference = 90BEDC0D2C9C011C003D7F0C /* MyApp.app */;
@@ -94,6 +118,12 @@
 			);
 			mainGroup = 90BEDC042C9C011B003D7F0C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				90BEDC292C9C0264003D7F0C /* XCRemoteSwiftPackageReference "posthog-ios" */,
+				90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				90BEDC2D2C9C02C5003D7F0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				90BEDC382C9C030F003D7F0C /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 90BEDC0E2C9C011C003D7F0C /* Products */;
 			projectDirPath = "";
@@ -324,6 +354,79 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90BEDC292C9C0264003D7F0C /* XCRemoteSwiftPackageReference "posthog-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PostHog/posthog-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.12.3;
+			};
+		};
+		90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.4;
+			};
+		};
+		90BEDC2D2C9C02C5003D7F0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+		90BEDC382C9C030F003D7F0C /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90BEDC2A2C9C0264003D7F0C /* PostHog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC292C9C0264003D7F0C /* XCRemoteSwiftPackageReference "posthog-ios" */;
+			productName = PostHog;
+		};
+		90BEDC2E2C9C02C5003D7F0C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC2D2C9C02C5003D7F0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		90BEDC302C9C02E9003D7F0C /* ReceiptParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = ReceiptParser;
+		};
+		90BEDC322C9C02E9003D7F0C /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		90BEDC342C9C02E9003D7F0C /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		90BEDC362C9C02E9003D7F0C /* RevenueCat_CustomEntitlementComputation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC2C2C9C0277003D7F0C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat_CustomEntitlementComputation;
+		};
+		90BEDC392C9C030F003D7F0C /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90BEDC382C9C030F003D7F0C /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90BEDC052C9C011B003D7F0C /* Project object */;
 }
